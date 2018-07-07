@@ -18,7 +18,7 @@ def meth (holiday_hash)
   holiday_hash.each do |season,holidays|
     # puts "#{season.capitalize}"
     holidays.each do |hol,supplies|
-      puts "   #{hol.to_s.split('_').map {|x| x.capitalize}.join(' ')}:" #{supplies.join(", ")}"
+      puts "   #{hol.to_s.split('_').map {|x| x.capitalize}.join(' ')}: #{supplies.join(", ")}"
     end
   end
 end
